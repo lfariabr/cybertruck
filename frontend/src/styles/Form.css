@@ -1,0 +1,48 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #3a3a3a;  /* Dark metallic border */
+  background: #1c1c1c;  /* Darker background */
+  border-radius: 6px;  /* Less rounded, sharper edges */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);  /* Deeper shadow for depth */
+  max-width: 450px;
+  color: #e3e3e3;  /* Light text */
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 2px solid #565656;  /* Darker, stronger border */
+  background: #2d2d2d;  /* Dark metallic background for input */
+  color: #e0e0e0;  /* Light text */
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-input::placeholder {
+  color: #757575;  /* Subtle placeholder color */
+}
+
+.form-button {
+  width: 100%;
+  padding: 15px;
+  margin: 25px 0;
+  background-color: #f9aa33;  /* Futuristic bright yellow */
+  color: #111;  /* Dark text on button */
+  border: 2px solid #f9aa33;  /* Matching border */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;  /* Sleek transition */
+  font-weight: bold;
+}
+
+.form-button:hover {
+  background-color: #ffc107;  /* Lighter yellow on hover */
+  transform: scale(1.05);  /* Slight scale effect */
+}

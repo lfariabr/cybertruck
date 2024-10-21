@@ -1,0 +1,46 @@
+python3 -m venv venv
+source venv/bin/activate
+
+pip freeze
+
+python manage.py runserver
+
+16/10
+- setup project
+- create User View
+- study serializers (create user) + jwt token
+- http://127.0.0.1:8000/api/user/register/
+- http://127.0.0.1:8000/api/token
+- Notes model created
+- Notes serializer
+- Notes ListCreateAPIView + DestroyAPIView
+- urls.py at api directory
+- youtube until 50m
+
+17/10
+- npm create vite@latest frontend -- -- template react
+- create-vite frontend -- template react
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+- cd frontend
+- npm install axios react-router-dom jwt-decode
+- frontend>src> delete App.css and index.css
+- cleaned App.jsx body and just letting import React from 'react'
+- cleaned main.jsx excluding import './index.css'
+- src > 3 directories: components | pages | styles
+- src> constants.js and api.js
+- .env in frontend
+- configured api.js file using axios interceptors
+
+21/10
+- ProtectedRoute.jsx
+- Created 4 pages > Home, Login, NotFound, Register
+- integrate frontend with backend for User + Notes
+- Loading Indicator
+- Some cool features
+
+to-do:
+- frontend: npm run dev
+- backend: python manage.py runserver
+- DB Deployment - 1h52m: https://www.youtube.com/watch?v=c-QsfbznSXI&t=6197s
+

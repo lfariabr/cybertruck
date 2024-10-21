@@ -1,0 +1,42 @@
+.note-container {
+  padding: 15px;
+  margin: 20px 0;
+  border: 2px solid #3a3a3a;  /* Dark metallic border */
+  background: #202020;  /* Dark industrial background */
+  color: #f1f1f1;  /* Light text */
+  border-radius: 4px;  /* Sharper corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);  /* Deep shadow for depth */
+}
+
+.note-title {
+  color: #f9aa33;  /* Bright yellow title */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;  /* Bold, uppercase title */
+}
+
+.note-content {
+  color: #e0e0e0;  /* Lighter text for content */
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.note-date {
+  color: #757575;  /* Subtle grey for date */
+  font-size: 0.8rem;
+}
+
+.delete-button {
+  background-color: #ff1744;  /* Cybertruck red */
+  color: #fff;
+  border: 2px solid #ff1744;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;  /* Smooth transition */
+}
+
+.delete-button:hover {
+  background-color: #ff4569;  /* Lighter red on hover */
+  transform: scale(1.05);  /* Slight scale effect */
+}
